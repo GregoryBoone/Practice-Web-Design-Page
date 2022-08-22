@@ -1,0 +1,110 @@
+.about{
+  margin: 5% 0 5% 5%;
+
+}
+h3{
+  text-align: center;
+  color: #FFB200;
+}
+.about p{
+  font-size: 20px;
+}
+body{
+  font-family: Roboto, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #F0F0F0;
+
+}
+.fa{
+  font-size: 48px;
+}
+form{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+
+form input{
+  margin: 20px;
+}
+form textarea{
+  margin: 20px;
+}
+.form-info{
+  float: right;
+  margin-right: 60px;
+  margin-top: 25px;
+  display: inline;
+
+}
+.form-list{
+  list-style-type: none;
+}
+.form-list li{
+  font-weight: bold;
+}
+.form-list p{
+  font-size: 20px;
+}
+footer{
+  text-align: center;
+  background-color: #FFCB42;
+  padding: 30px 20px 20px 20px;
+  margin-top: 25px;
+  color: blue;
+}
+header{
+  background-color: #FFCB42;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: blue 3px solid;
+  display: flex;
+  justify-content: space-around;
+}
+
+.list{
+  border: 2px solid #277BC0;
+  padding: 0 20px 0 20px;
+
+  list-style-type: none;
+}
+
+header li{
+  margin: 10px;
+
+}
+
+.pricing {
+  display: flex;
+  text-align: center;
+  margin: 2% 5% 10% 5%;
+}
+.price-heading{
+  margin-top: 150px;
+}
+.pricing .container1{
+
+  border-style: solid;
+  margin: 50px;
+  background-color: #FFF4CF;
+}
+.quote-button{
+  margin-top: 20px;
+}
+.showcase{
+  min-height: 400px;
+  text-align: center;
+  background: url("https://a.cdn-hotels.com/gdcs/production196/d637/6ba4438f-964d-4215-8a98-dbc2d373649d.jpg?impolicy=fcrop&w=800&h=533&q=medium")
+  no-repeat;
+  background-size: cover;
+
+}
+.showcase h1{
+  text-align: center;
+  padding: 10% 10% 0% 10%;
+}
